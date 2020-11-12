@@ -25,8 +25,8 @@ export const countSyllables = (string) => {
 
 // Check each line's syllables
 export const checkHaiku = (line1, line2, line3) => {
-  // const line1Count = countSyllables(line1);
-  // const line2Count = countSyllables(line2);
-  // const line3Count = countSyllables(line3);
-  // return line1Count === 5 && line2Count === 7 && line3Count === 5;
+  const line1Count = countSyllables(line1);
+  const line2Count = countSyllables(line2);
+  const line3Count = countSyllables(line3);
+  return line1Count === 5 && line2Count === 7 && line3Count === 5;
 };

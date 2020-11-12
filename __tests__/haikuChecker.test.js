@@ -27,8 +27,9 @@ describe ('countSyllables', () => {
 describe ('checkHaiku', () => {
   test('should return true or false depending on whether poem is a haiku', () => {
     const line1 = "An old silent pond";
-    const line2 = "A frog jumps into the pond--";
+    const line2 = "A frog jumps into a pond--";
     const line3 = "Splash! Silence again.";
     expect(checkHaiku(line1, line2, line3)).toEqual(true);
   });
 });
+
