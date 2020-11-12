@@ -17,3 +17,7 @@ export const countSilentVowels = (string) => {
   const oddSiltentI = string.match(/business/gi).length;
   return silentA + silentE + anotherSilentE + silentU + oddSiltentI
 };
+
+export const countSyllables = (string) => {
+  // return countVowels(string) - countDipthongs(string) - countSilentVowels(string);
+};
