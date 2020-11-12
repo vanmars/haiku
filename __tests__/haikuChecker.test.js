@@ -20,6 +20,6 @@ describe ('countSilentVowels', () => {
 
 describe ('countSyllables', () => {
   test('should generally return the correct number of syllables in a string', () => {
-    expect(countSyllables("guide drastically business fixed")).toEqual(7);
+    expect(countSyllables("drastically business fixed")).toEqual(6);
   });
 });
