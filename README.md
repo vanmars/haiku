@@ -1,32 +1,28 @@
-# _{Application Name}_
+# _Haiku Checker/Creator_
 
-_{Date of current version}_
+_12 November 2020_
 
-#### _{Brief description of application}_
+#### _Application that checks whether a poem is in fact a haiku_
 
 #### By _**Vanessa Stewart**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This is an exercise for Epicodus to practice functional programming techniques. The original instructions incude:_
 
-## Specifications
-| Behavior | Input    | Output   |
-| -------- | -------- | -------- |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+A haiku is a poem that consists of three lines. The first has five syllables, the second has seven, and the third has five. Start by creating an application that checks whether a poem is in fact a haiku. If you have time, build out your application so that it can randomly generate haikus.
+
+Your logic should verify that the poem has three lines.
+Your logic should verify English syllable rules (and exceptions) one at a time. A quick Google search will provide information on English syllable rules.
+If you successfully complete a Haiku checker, continue to build out your application to randomly generate haikus.
+Make sure you test your application for each new rule you implement.
+
 
 ## Setup/Installation Requirements
 
-To View Project:
-* Open a web browser of your choice and navigate to the following page:
-
-To Extend This Project:
 * Navigate to the directory in which you would like to clone this project.
-* Run `git clone ` in terminal.
-* Run `cd ` to navigate into new project directory.
+* Run `git clone https://github.com/vanmars/haiku.git` in terminal.
+* Run `cd haiku` to navigate into new project directory.
 * Open the cloned repo in a text editor of your choice.
 * Run `npm install` to download all dependencies.
 * Run `npm run start` to start a live server and view projec in the browser.
