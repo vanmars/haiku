@@ -1,7 +1,7 @@
 // Count the vowels in the sentence
 export const countVowels = (string) => {
-  // vowelsArray = string.match(/[aeiou/gi]);
-  // return vowelsArray.length
+  const vowelsArray = string.match(/[aeiou]/gi);
+  return vowelsArray.length;
 };
 
 // Subtract silent vowels
