@@ -1,4 +1,4 @@
-import { countVowels, countDipthongs, countSilentVowels, countSyllables } from '../src/js/haikuChecker.js'
+import { countVowels, countDipthongs, countSilentVowels, countSyllables, checkHaiku } from '../src/js/haikuChecker.js'
 
 describe ('countVowels', () => {
   test('should return the correct number of vowels in a string', () => {
@@ -21,5 +21,14 @@ describe ('countSilentVowels', () => {
 describe ('countSyllables', () => {
   test('should generally return the correct number of syllables in a string', () => {
     expect(countSyllables("drastically business fixed")).toEqual(6);
+  });
+});
+
+describe ('checkHaiku', () => {
+  test('should return true or false depending on whether poem is a haiku', () => {
+    const line1 = "An old silent pond";
+    const line2 = "A frog jumps into the pond--";
+    const line3 = "Splash! Silence again.";
+    expect(checkHaiku(line1, line2, line3)).toEqual(true);
   });
 });
