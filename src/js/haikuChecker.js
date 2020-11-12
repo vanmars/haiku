@@ -6,7 +6,7 @@ export const countVowels = (string) => {
 
 // Subtract one vowel when two vowel sounds form one speech sound
 export const countDipthongs = (string) => {
-  // return string.match(/[aeiouy][aeiouy]/gi).length
+  return string.match(/[aeiouy][aeiouy]/gi).length
 };
 
 
