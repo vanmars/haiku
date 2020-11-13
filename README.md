@@ -18,7 +18,9 @@ If you successfully complete a Haiku checker, continue to build out your applica
 Make sure you test your application for each new rule you implement.
 
 ## Setup/Installation Requirements
+To View Project: Open a browser of your choice, and navigate to the following site: https://vanmars.github.io/haiku/dist/index.html.
 
+To Extend Project:
 * Navigate to the directory in which you would like to clone this project.
 * Run `git clone https://github.com/vanmars/haiku.git` in terminal.
 * Run `cd haiku` to navigate into new project directory.
