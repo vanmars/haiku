@@ -17,13 +17,6 @@ Your logic should verify English syllable rules (and exceptions) one at a time. 
 If you successfully complete a Haiku checker, continue to build out your application to randomly generate haikus.
 Make sure you test your application for each new rule you implement.
 
-## Problem Solving Steps
-1. Create front-end to capture three lines of haiku
-2. Capture and save form inputs of three lines
-3. Create syllalbe counting function
-4. Create another method for checking whether first and third lines have 5 syllables and the middle has 7 syllables.
-
-
 ## Setup/Installation Requirements
 
 * Navigate to the directory in which you would like to clone this project.
